@@ -1,0 +1,103 @@
+body {
+  background: #0d1117;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1e2230;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-group button {
+  background: #6366f1;
+  border: none;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-filter {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.btn-delete-all {
+  background: #ef4444;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+th {
+  background: #111827;
+}
+
+tr:nth-child(even) {
+  background: #2a2e3d;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.status-done {
+  color: #22c55e;
+  font-weight: bold;
+}
