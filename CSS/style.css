@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  background: #1e2230;
+  background: #515357;
   padding: 2rem;
   border-radius: 10px;
   width: 450px;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .btn-filter {
-  background: #3b82f6;
+  background: #6366f1;
   color: #fff;
 }
 
@@ -81,7 +81,7 @@ th, td {
 }
 
 th {
-  background: #111827;
+  background: #0a0a0b;
 }
 
 tr:nth-child(even) {
